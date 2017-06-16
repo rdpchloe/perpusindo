@@ -231,3 +231,7 @@ img.flag {
 .purplePI:hover {
 	background: #5c42c7;
 }
+
+.vert-align {
+	vertical-align: top;
+}
