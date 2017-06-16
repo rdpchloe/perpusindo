@@ -8,6 +8,7 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/tiramisu.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -358,9 +359,9 @@
                                                         <img src="img/flag/amvflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
                                                     </a>
                                                 </td>
-                                                <td><a href="http://google.com">[Rujak] Koe no Katachi AMV [720p][87556645].mkv</a>
+                                                <td class="showlink"><a href="#">[Rujak] Koe no Katachi AMV [720p][87556645].mkv</a><i class="icons fa pull-right fa-plus" aria-hidden="true"></i>
                                                     <br>
-                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Ziddu</a> - <a href="#">GoogleDrive</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">31 komentar</a></span>
+                                                    <span class="listlink second-line" hidden><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Ziddu</a> - <a href="#">GoogleDrive</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">31 komentar</a></span>
                                                 </td>
                                                 <td><a class="submitter" href="#">Rozak</a>
                                                 </td>
@@ -472,6 +473,11 @@
             $('ul.tabs').tabs();
             $('.modal').modal();
             $('select').material_select();
+
+            $(".showlink").click(function(){
+                $(".listlink").slideToggle('100');
+                $(this).find('.icons').toggleClass('fa-minus');
+            });
 
             $('.dropdown-button').dropdown({
               inDuration: 300,
