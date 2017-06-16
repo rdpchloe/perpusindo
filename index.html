@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/tiramisu.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#login">Masuk</a>
+            </li>
+            <li><a href="#!">Daftar</a>
+            </li>
+        </ul>
+        <nav class="tiramisu">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">PI</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="sass.html">Tentang Kami</a>
+                    </li>
+                    <li><a href="badges.html">Peraturan</a>
+                    </li>
+                    <li><a href="collapsible.html">Bantuan</a>
+                    </li>
+                    <li><a href="collapsible.html">Ruang Obrol</a>
+                    </li>
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html">RSS</a>
+                    </li>
+                    <li><a href="badges.html">API</a>
+                    </li>
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons left">account_circle</i> Tamu</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <div class="parallax-container parallax-tiramisu" style="z-index: -3;">
+            <div class="parallax"><img src="img/back.jpg">
+            </div>
+        </div>
+        <div class="section white minusatas">
+            <div class="row">
+
+                <div class="col s12 xl12 l12" style="padding: 30px">
+                    <div class="badankanan z-depth-2 badankanannaik">
+                        <div class="row">
+                            <div id="test2" class="col s12">
+                                <form method="get" action="a.html" class="col s12" style="padding: 0;">
+                                    <div class="row" style="margin-bottom: 0px">
+                                        <div class="input-field col s12 xl3 l3">
+                                            <select>
+                                                <option value="r">-- Semua Kategori --</option>
+                                                <option value="1">Anime</option>
+                                                <option value="1">Anime Raw</option>
+                                                <option value="1">Live Action</option>
+                                                <option value="1">Live Action Raw</option>
+                                                <option value="1">Live Action PV/Idol</option>
+                                                <option value="1">Anime Music Video</option>
+                                                <option value="1">Buku</option>
+                                                <option value="1">Buku Raw</option>
+                                                <option value="1">Audio</option>
+                                                <option value="1">Gambar</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s12 xl9 l9">
+                                            <button class="btn waves-effect waves-light" type="submit" name="action" style="display:none"></button>
+                                            <i class="material-icons prefix" style="top: 9px;right: 0;">search</i>
+                                            <input id="icon_prefix" type="text" class="validate" style="margin-bottom: 0px;margin-left: 0px">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="test1" class="col s12">
+                                <div class="table-responsive">
+                                    <table class="bordered">
+                                        <thead>
+                                            <tr>
+                                                <th width="100px">Kategori</th>
+                                                <th class="judul">Nama Berkas</th>
+                                                <th>User / Grup</th>
+                                                <th class="tanggal">Tanggal</th>
+                                                <th>Website</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/animeflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a class='dropdown-button' href='#' data-activates='dropdown2'>[Tiramisu] Eromanga Sensei - 09 [720p 10bit][08GH7856].mkv <i class="material-icons">arrow_drop_down</i></a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(1);">12 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Chiira</a>
+                                                </td>
+                                                <td>12-06-2017 22:31</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+
+                                                <ul id='dropdown2' class='dropdown-content'>
+                                                    <li><a href="#!">one</a></li>
+                                                    <li><a href="#!">two</a></li>
+                                                    <li class="divider"></li>
+                                                    <li><a href="#!">three</a></li>
+                                                    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                                                    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                                                  </ul>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/animeflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a class='dropdown-button' href='#' data-activates='dropdown3'>[Tiramisu] Eromanga Sensei - 09 [480p][98654456].mkv</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">12 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Chiira</a>
+                                                </td>
+                                                <td>11-06-2017 22:31</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+
+                                                <ul id='dropdown3' class='dropdown-content'>
+                                                    <li><a href="#!">one</a></li>
+                                                    <li><a href="#!">two</a></li>
+                                                    <li class="divider"></li>
+                                                    <li><a href="#!">three</a></li>
+                                                    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                                                    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                                                  </ul>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/animerawflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Nice-Raw] Eromanga Sensei - 09 [1080p][57654534].mkv</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Ziddu</a> - <a href="#">GoogleDrive</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">31 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Ruby</a>
+                                                </td>
+                                                <td>10-06-2017 13:41</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/audioflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Akari] Namie Amuro - Dear Diary / Fighter (Single) [FLAC].zip</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> | <a href="#" onclick="readRecords(2);">0 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Akari</a>
+                                                </td>
+                                                <td>10-06-2017 12:02</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/bukuflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Rakko] Kuro Kuro - Black Chronicle - [vol. 2].rar</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Ziddu</a> - <a href="#">KumpulBagi</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">0 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Rururi</a>
+                                                </td>
+                                                <td>09-06-2017 11:14</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/bukurawflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[xPearse] Futari wa PreCure Chapter 6 [Manga].zip</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">Ziddu</a> - <a href="#">Solidfiles</a> - <a href="#">GoogleDrive</a> - <a href="#">Mega</a> - <a href="#">Zippyfiles</a> | <a href="#" onclick="readRecords(2);">11 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Mbuh</a>
+                                                </td>
+                                                <td>09-06-2017 10:31</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/gambarflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Nifty] Ennichisai 2017 Cosplay Showdown 2.zip</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Mega</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">123 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Roger</a>
+                                                </td>
+                                                <td>09-06-2017 09:45</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/gambarflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Nifty] Ennichisai 2017 Cosplay Showdown.zip</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Mega</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">145 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Roger</a>
+                                                </td>
+                                                <td>08-06-2017 22:30</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/laflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Over-Time] Space Sentai Kyuranger - 18 [6B730AFD].mkv</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Mega</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">1 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Chrono</a>
+                                                </td>
+                                                <td>08-06-2017 12:31</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/larawflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[jdrama] CRISIS ep06 (848x480 AAC x264).mkv</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Mega</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">11 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Lulul</a>
+                                                </td>
+                                                <td>08-06-2017 11:31</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/animeflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Tiramisu] Eromanga Sensei - 08 [720p 10bit][08GH7856].mkv</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(1);">12 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Chiira</a>
+                                                </td>
+                                                <td>07-06-2017 22:31</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/animeflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Tiramisu] Eromanga Sensei - 08 [480p][98654456].mkv</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">12 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Chiira</a>
+                                                </td>
+                                                <td>07-06-2017 22:31</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/animerawflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Nice-Raw] Eromanga Sensei - 08 [1080p][57654534].mkv</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Ziddu</a> - <a href="#">GoogleDrive</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">31 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Ruby</a>
+                                                </td>
+                                                <td>10-06-2017 13:41</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/animerawflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Bobo] Eromanga Sensei - 09 [1080p][57654534].mkv</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Ziddu</a> - <a href="#">GoogleDrive</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">31 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Reisen</a>
+                                                </td>
+                                                <td>10-06-2017 13:41</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/animerawflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Bobo] Eromanga Sensei - 08 [1080p][57654534].mkv</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Ziddu</a> - <a href="#">GoogleDrive</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">31 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Reisen</a>
+                                                </td>
+                                                <td>10-06-2017 13:41</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/amvflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Rujak] Koe no Katachi AMV [720p][87556645].mkv</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Ziddu</a> - <a href="#">GoogleDrive</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">31 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Rozak</a>
+                                                </td>
+                                                <td>08-06-2017 13:41</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="flag">
+                                                    <a href="/?c=1_3" title="Anime - Indonesia-translated">
+                                                        <img src="img/flag/lapvflag.png" class="flag-type flag" alt="Anime - Indonesia-translated">
+                                                    </a>
+                                                </td>
+                                                <td><a href="http://google.com">[Rujak] ClariS - Click [720p][46YG5643].mkv</a>
+                                                    <br>
+                                                    <span class="second-line"><a href="#">Mediafire</a> - <a href="#">KumpulBagi</a> - <a href="#">Ziddu</a> - <a href="#">GoogleDrive</a> - <a href="#">Solidfiles</a> | <a href="#" onclick="readRecords(2);">31 komentar</a></span>
+                                                </td>
+                                                <td><a class="submitter" href="#">Rozak</a>
+                                                </td>
+                                                <td>08-06-2017 08:41</td>
+                                                <td><a class="waves-effect waves-light btn" style="background: #4b30b8;padding-left: 0;    padding-right: 15px;"><i class="material-icons right">open_in_new</i></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="pagination" style="text-align: center;">
+                        <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a>
+                        </li>
+                        <li class="purplePI"><a href="#!">1</a>
+                        </li>
+                        <li class="waves-effect"><a href="#!">2</a>
+                        </li>
+                        <li class="waves-effect"><a href="#!">3</a>
+                        </li>
+                        <li class="waves-effect"><a href="#!">4</a>
+                        </li>
+                        <li class="waves-effect"><a href="#!">5</a>
+                        </li>
+                        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="fixed-action-btn">
+            <a href="#upload" class="btn-floating btn-large purplePI waves-effect waves-light">
+                <i class="large material-icons">publish</i>
+            </a>
+        </div>
+
+        <!-- MODAL -->
+        <!-- Modal Structure -->
+        <div id="login" class="modal" style="max-width: 550px;">
+            <div class="modal-content">
+                <h4>Masuk</h4>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Username</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Kata Sandi</label>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn waves-effect purplePI waves-light" type="submit" name="action">Masuk
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+        </div>
+        <div id="upload" class="modal bottom-sheet">
+            <div class="modal-content">
+                <h4>Kotak Dialog Upload Buat Nanti</h4>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Nama Berkas</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn waves-effect purplePI waves-light" type="submit" name="action">Setor Link
+                    <i class="material-icons right">send</i>
+                </button>
+
+            </div>
+        </div>
+    </main>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.parallax').parallax();
+            $(".button-collapse").sideNav();
+            $('ul.tabs').tabs();
+            $('.modal').modal();
+            $('select').material_select();
+
+            $('.dropdown-button').dropdown({
+              inDuration: 300,
+              outDuration: 225,
+              constrainWidth: false, // Does not change width of dropdown to that of the activator
+              hover: false, // Activate on hover
+              gutter: 0, // Spacing from edge
+              belowOrigin: true, // Displays dropdown below the button
+              alignment: 'left', // Displays dropdown with edge aligned to the left of button
+              stopPropagation: false // Stops event propagation
+            }
+          );
+        });
+    </script>
+</body>
+
+</html>
