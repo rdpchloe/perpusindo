@@ -235,3 +235,13 @@ img.flag {
 .vert-align {
 	vertical-align: top;
 }
+
+.dl-link > td {
+  padding: 0;
+}
+
+.dl-link > td > p {
+	margin-top: -7px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
