@@ -169,6 +169,7 @@ table>thead>tr, table>tbody>tr {
 
 td {
 	padding: 4px 5px;
+	z-index: 1;
 }
 
 .submitter {
@@ -241,9 +242,11 @@ img.flag {
 }
 
 .dl-link > td > p {
-	margin-top: -7px;
-	margin-bottom: 5px;
-	margin-left: 5px;
+	margin-top: -11px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    z-index: 99999;
 }
 
 input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
@@ -256,4 +259,12 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 
 .backupload {
 	background: #fafafa url(../img/backupload.png) repeat-x top left !important;
+}
+
+.backnotif {
+	background: #fafafa url(../img/backnotif.png) repeat-x top left !important;
+}
+
+.backlogin {
+	background: #fafafa url(../img/backlogin.png) repeat-x top left !important;
 }
