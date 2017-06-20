@@ -245,3 +245,15 @@ img.flag {
 	margin-bottom: 5px;
 	margin-left: 5px;
 }
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #4b30b8;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+	color: #4b30b8;
+}
+
+.backupload {
+	background: #fafafa url(../img/backupload.png) repeat-x top left !important;
+}
